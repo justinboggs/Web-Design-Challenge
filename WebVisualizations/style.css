@@ -1,0 +1,15 @@
+/* set active hover attributes */
+/* ctrl+K+C comment out
+ctrl+K+U uncomment */
+
+.dropdown-menu > a:hover {
+    background-color: #99badd;
+}
+
+.navbar > a:hover {
+    background-color: white;
+}
+
+.nav-item > a:hover {
+    background-color: white;
+}
