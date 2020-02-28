@@ -13,3 +13,58 @@ ctrl+K+U uncomment */
 .nav-item > a:hover {
     background-color: white;
 }
+
+img {
+    box-shadow: 10px 10px 5px #99badd;
+}
+
+a {
+    color: #d21034;
+}
+
+/* Selecting elements by class */
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Selecting elements by ID */
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#figure {
+    position: relative;
+}
+
+#bio-name {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+#bio-image {
+    /* width: 500px;
+    height: 500px; */
+    margin-right: 20px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #648ab3;
+    text-align: center;
+}
