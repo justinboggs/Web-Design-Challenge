@@ -1,9 +1,10 @@
 /* navbar adjustments */
+
 .dropdown-menu > a:hover {
     background-color: #99badd;
 }
 
-.navbar > a:hover {
+.container > a:hover {
     background-color: white;
 }
 
@@ -11,10 +12,12 @@
     background-color: white;
 }
 
+
 /* body adjustments */
 img {
-    box-shadow: 10px 10px 5px #99badd;
+    box-shadow: 5px 5px 5px #99badd;
     margin-right: 15px;
+    margin-bottom: 5px;
 }
 
 body {
@@ -51,7 +54,6 @@ body {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: white;
-    color: #648ab3;
+    background-color: #99badd;
     text-align: center;
 }
