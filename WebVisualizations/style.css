@@ -1,7 +1,4 @@
-/* set active hover attributes */
-/* ctrl+K+C comment out
-ctrl+K+U uncomment */
-
+/* navbar adjustments */
 .dropdown-menu > a:hover {
     background-color: #99badd;
 }
@@ -14,47 +11,41 @@ ctrl+K+U uncomment */
     background-color: white;
 }
 
+/* body adjustments */
 img {
     box-shadow: 10px 10px 5px #99badd;
+    margin-right: 15px;
 }
 
-a {
-    color: #d21034;
+body {
+    background-color: lightgray;
 }
 
-/* Selecting elements by class */
-.container {
-    width: 1024px;
-    margin: 0 auto;
+.box {
+    margin-top: 60px;
+    margin-bottom: 62px;
+    padding: 10px 20px 15px;
 }
 
-/* Selecting elements by ID */
-#main-bio,
-#contact-info,
-#bio-image {
-    float: left;
+.col-md-8 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#figure {
-    position: relative;
+.col-md-12 {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-#bio-name {
-    position: absolute;
-    top: 150px;
-    left: 30px;
+.content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    overflow: hidden;
 }
 
-#main-bio {
-    width: 100%;
-}
-
-#bio-image {
-    width: 400px;
-    height: 300px;
-    margin-right: 20px;
-}
-
+/* footer adjustments */
 .footer {
     position: fixed;
     left: 0;
